@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prototipo v3.1 - New</title>
+    <!-- JS-->
+    <script src="js/all.min.js"></script>
+    <script src="libs/bootstrap.bundle.min.js"></script>
+    <!-- Icono-->
+    <link rel="icon" type="image/x-icon" href="/iconos/proto.ico" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <!-- CSS-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/style_login.css" rel="stylesheet" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body id="principal">
+    <!--Parte del Login Div-->
+
+    <div class="wrapper">
+      <div class="logo"><img src="imagenes/login.png" alt="" /></div>
+      <div class="text-center mt-2 name" ref="login.html">
+        SES-PE
+        <h6 class="text-white-50">Prototipo v3.1</h6>
+      </div>
+
+      <form action="connection/validacion.php" method="POST" class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+          <span class="fas fa-user text-white"></span>
+          <input
+            class="text-white-50"
+            type="text"
+            name="usuario"
+            id="userName"
+            placeholder="Usuario"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="form-field d-flex align-items-center">
+          <span class="fas fa-key text-white"></span>
+          <input
+            class="text-white-50"
+            type="password"
+            name="password"
+            id="pwd"
+            placeholder="Contraseña"
+            autocomplete="off"
+          />
+        </div>
+        <button type="submit" name="submit" class="btn btn-success">
+          Ingresar
+        </button>
+      </form>
+    </div>
+  </body>
+
+  <script src="..js/bootstrap.min.js" crossorigin="anonymous"></script>
+</html>

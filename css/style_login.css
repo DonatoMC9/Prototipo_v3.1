@@ -1,0 +1,101 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ }
+
+#principal{
+    min-height: 90vh;
+    background: url(../imagenes/bg-masthead.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+     max-width: 350px;
+     min-height: 400px;
+     margin: 20px auto;
+     padding: 20px 30px 30px 30px;
+     background-color: #363636;
+     border-radius: 15px;
+     box-shadow: 0px 0px 0px 1px #0f0e0e, 0px 0px 0px 3px #58585a,
+    8px 8px 15px #070707, -8px -8px 15px #070707;
+ }
+
+.logo {
+    width: 100px;
+    margin: auto
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px 1px #0f0e0e, 0px 0px 0px 3px #58585a,
+    8px 8px 15px #070707, -8px -8px 15px #070707;
+    margin-bottom: 20px;
+}
+
+.wrapper .name {
+    font-weight: 500;
+    font-size: 4.0rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    color: #666;
+    padding: 10px 15px 10px 10px
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #424242, inset -8px -8px 8px rgb(19, 19, 19);
+}
+
+.wrapper .form-field .fas {
+    color: #fff;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;    
+    border-radius: 10px;    
+    letter-spacing: 1.3px
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #242424
+}
+
+.wrapper a:hover {
+    color: #676868
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px
+    }
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+span{
+    color: white;
+}
